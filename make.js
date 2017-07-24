@@ -90,6 +90,7 @@ function copyAssets() {
   b.copy('./vendor/brace.*', './build/lib/')
   b.copy('./vendor/vega*', './build/lib/')
   b.copy('./vendor/unified*', './build/lib/')
+  b.copy('./vendor/stdlib*', './build/lib/')
   b.copy('./node_modules/d3/build/d3.min.js', './build/lib/')
   b.copy('./node_modules/katex/dist/', './build/katex')
   b.copy('./node_modules/substance/dist/substance.js*', './build/lib/')
